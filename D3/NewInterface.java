@@ -1,3 +1,5 @@
+package d3test;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -55,10 +57,18 @@ public class NewInterface extends JPanel{
         fieldPanel.add(md);
         fieldPanel.add(stime);
         fieldPanel.add(outtemp);
-       
-
-	
 }//end InterfaceNew Constructor
+	
+	public String getSelected(JComboBox box) {
+		String value = box.getSelectedItem().toString();
+		System.out.println(value);
+		return value;
+	}
+	public String getSelectedText(JTextField field) {
+		String value1 = field.getSelectedText();
+		System.out.println(value1);
+		return value1;
+	}
 	
 	public static void main(String[] args) {
 		 final NewInterface form = new NewInterface();
@@ -68,20 +78,20 @@ public class NewInterface extends JPanel{
 	            @Override
 	           public void actionPerformed(ActionEvent e) {
 	            	
-	                String Stat = ST.getSelectedItem().toString();
-	            	String App = app.getSelectedItem().toString();
-	            	Calculation calc1 = new Calculation();//state object
+	               // String Stat = form.st.getSelectedItem().toString();
+	                form.getSelected(form.st);
+	                form.getSelected(form.app);
+	                form.getSelected(form.md);
+	                form.getSelected(form.stime);
+	                form.getSelectedText(form.outtemp);
+	            	//String App = form.app.getSelectedItem().toString();
+	            	//Calculation calc1 = new Calculation();//state object
 	                
-	            	State p1 = new State();//state object
+	            	//State p1 = new State();//state object
 	            	
-	            	calc1.Calc(15, Stat, App);
-	            	
-	            	
-	            	
-	            	
-	            	
-	            
-	                L.setText(calc1.Calc(15,Stat,App));
+	            	//calc1.Calc(15, Stat, App);
+
+	               // form.L.setText(calc1.Calc(15,Stat,App));
 	            }
 	            
 	        });
@@ -102,5 +112,7 @@ public class NewInterface extends JPanel{
 	    }
 	
 		
-
+		//Parameters.HVAC(values...);
 	}
+
+
