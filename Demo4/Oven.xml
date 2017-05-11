@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data id="1">
+    <answers3 mode="Bake">
+        <consumption>1.06</consumption>
+        <duration>0.50</duration>
+    </answers3>
+    <answers3 mode="Broil">
+        <consumption>1.00</consumption>
+        <duration>0.33</duration>
+    </answers3>
+    <questionname>Oven</questionname>
+</data>

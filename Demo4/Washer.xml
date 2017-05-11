@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data id="1">
+    <answers3 mode="Regular">
+        <consumption>0.26</consumption>
+        <duration>0.58</duration>
+    </answers3>
+    <answers3 mode="Delicates">
+        <consumption>0.19</consumption>
+        <duration>0.42</duration>
+    </answers3>
+    <answers3 mode="Perm Press">
+        <consumption>0.26</consumption>
+        <duration>0.62</duration>
+    </answers3>
+    <questionname>Washer</questionname>
+</data>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data id="1">
+    <answers name="New Mexico">
+        <peekHourE>20.0</peekHourE>
+        <peekHourS>8.0</peekHourS>
+        <time>0.0</time>
+    </answers>
+    <answers name="Arizona">
+        <peekHourE>19.0</peekHourE>
+        <peekHourS>12.0</peekHourS>
+        <time>0.0</time>
+    </answers>
+    <answers name="Texas">
+        <peekHourE>21.0</peekHourE>
+        <peekHourS>7.0</peekHourS>
+        <time>0.0</time>
+    </answers>
+    <answers name="California">
+        <peekHourE>18.0</peekHourE>
+        <peekHourS>12.0</peekHourS>
+        <time>0.0</time>
+    </answers>
+    <answers2 aname="Dryer">
+       
+    </answers2>
+    <answers2 aname="Washer">
+        
+    </answers2>
+    <answers2 aname="Dish Washer">
+        
+    </answers2>
+    
+    <answers2 aname="Oven">
+       
+    </answers2>
+
+    <questionname>StateData and ApplianceData</questionname>
+</data>
