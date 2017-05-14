@@ -1,13 +1,13 @@
 # PCO
 # Project: Power Consumption Optimization
-The objective of our project is to optimize power consumption during peak hours.  <br />It will help consumers to lower their electricity cost.  In our project, we used multiple states (ex: California), and common household appliances.  My team used Virginia Tech research data of power consumption for household appliances.  We also collected electric tariff of different power companies i.e. PNM, APS, Xcel Energy, and   Southern California Edison.  My team designed a java user interface to get user input and provide feedback to reduce electricity usage during peak hours.  We made it so new users would find it easy to use and review.
+The objective of our project is to optimize power consumption during peak hours.  It will help consumers to lower their electricity cost.  In our project, we used multiple states (ex: California), and common household appliances.  My team used Virginia Tech research data of power consumption for household appliances.  We also collected electric tariff of different power companies i.e. PNM, APS, Xcel Energy, and   Southern California Edison.  My team designed a java user interface to get user input and provide feedback to reduce electricity usage during peak hours.  We made it so new users would find it easy to use and review.
  
 # Description
-•	Users are asked to select five options in the user interface.  These options are state name, appliance name, mode, start time, and outside temperature.
-•	Calculation class takes care of peak and non-peak hour calculations based on user preferences.
-•	State class holds data for different states.  We used only four states in our project i.e. New Mexico, Arizona, Texas, and California.  Each state holds the corresponding power company data i.e. peak hours’ duration and tariff prices in KWH.
-•	Appliance class holds data for household appliances and HVAC system.
-o	In our project we used common house hold appliances i.e. electric car, oven, washer, dryer and dishwasher.  Some of the appliances have single regular modes i.e. the electric car and dishwasher and the rest of the appliances have multiple modes i.e. oven has two modes (bake and broil) and washer and dryer has three modes (regular, perm-press, delicates).
+•	Users are asked to select five options in the user interface.  These options are state name, appliance name, mode, start time, and outside temperature.<br />
+•	Calculation class takes care of peak and non-peak hour calculations based on user preferences.<br />
+•	State class holds data for different states.  We used only four states in our project i.e. New Mexico, Arizona, Texas, and California.  Each state holds the corresponding power company data i.e. peak hours’ duration and tariff prices in KWH.<br />
+•	Appliance class holds data for household appliances and HVAC system.<br />
+o	In our project we used common house hold appliances i.e. electric car, oven, washer, dryer and dishwasher.  Some of the appliances have single regular modes i.e. the electric car and dishwasher and the rest of the appliances have multiple modes i.e. oven has two modes (bake and broil) and washer and dryer has three modes (regular, perm-press, delicates).<br />
 o	HVAC system takes care of heating and cooling requirements of the house.  The performance of the HVAC system depends on the outside and the desired inside temperature.  We used 72℉ for the desired inside temperature to make our model simple. In the UI, we asked the user to select the outside temperature.  Our model performs all the calculation based on the outside temperature.  The HVAC system has different parameters; we will discuss these parameters in the HVAC system parameters section.
 # HVAC System Parameters
 rho = 0.075;  // Air Density lbm/ft^3 (From Book Table)
