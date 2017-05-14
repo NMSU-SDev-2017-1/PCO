@@ -28,7 +28,8 @@ buildingLoss = (aW * uW) + (aWd * uWd) + (aRf * uRf) + uV ;
 uV = cfm * 60 * rho * cp ;
 Load = ULoss * Math.abs(insideTemerature - outTemp);
 
-# Note: We considered that the central HVAC system contains both the ac and heater.  Heating/Cooling capacity and power consumption is the same.  We also assume that the inside temperature is equal to the outside temperature when the HVAC system is off. 
+# Note
+We considered that the central HVAC system contains both the ac and heater.  Heating/Cooling capacity and power consumption is the same.  We also assume that the inside temperature is equal to the outside temperature when the HVAC system is off. 
 # How to run the application
 Our project is not that complicated.  It is kind of prototype.  We developed this application in java by using Eclipse IDE.  Steps to run our application:
 •	Download from our project repository (GitHub) 
