@@ -1,6 +1,6 @@
 # PCO
 # Project: Power Consumption Optimization
-The objective of our project is to optimize power consumption during peak hours.  It will help consumers to lower their electricity cost.  In our project, we used multiple states (ex: California), and common household appliances.  My team used Virginia Tech research data of power consumption for household appliances.  We also collected electric tariff of different power companies i.e. PNM, APS, Xcel Energy, and   Southern California Edison.  My team designed a java user interface to get user input and provide feedback to reduce electricity usage during peak hours.  We made it so new users would find it easy to use and review.
+The objective of our project is to optimize power consumption during peak hours.  <br />It will help consumers to lower their electricity cost.  In our project, we used multiple states (ex: California), and common household appliances.  My team used Virginia Tech research data of power consumption for household appliances.  We also collected electric tariff of different power companies i.e. PNM, APS, Xcel Energy, and   Southern California Edison.  My team designed a java user interface to get user input and provide feedback to reduce electricity usage during peak hours.  We made it so new users would find it easy to use and review.
  
 # Description
 •	Users are asked to select five options in the user interface.  These options are state name, appliance name, mode, start time, and outside temperature.
